@@ -8,12 +8,12 @@ def my_each(array)
     end
     array
   else
-    "Hey, Where's the block man?"
+    return "Hey, Where's the block man?"
   end
 end
 
 my_each([1, 2, 3, 4, 5]) do |num|
   if num > 2
-    "This is number #{num}!!!!!"
+    return "This is number #{num}!!!!!"
   end
 end
