@@ -14,6 +14,6 @@ end
 
 my_each([1, 2, 3, 4, 5]) do |num|
   if num > 2
-    puts "This is number #{num}!!!!!"
+    "This is number #{num}!!!!!"
   end
 end
